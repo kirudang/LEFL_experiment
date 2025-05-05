@@ -27,18 +27,6 @@ This project converts structured educational text into narrated videos with sync
    - Concatenates all video segments with optional pause intervals.
    - Optionally creates a single continuous video with layered captions.
 
-## File Structure
-.
-├── data/
-│   ├── finance.txt              # Input text file
-│   └── background_female.png    # Background image
-├── audio/                       # Auto-generated audio clips
-├── video_segments/             # Temporary segments with audio+image
-├── final_segments/             # Segments with progressive captions
-├── 02.Finance.mp4              # Final video output
-├── main.py                     # Main script (provided above)
-└── README.md                   # This file
-
 ## Requirements
 
 - Python 3.7+
