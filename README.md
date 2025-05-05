@@ -29,6 +29,8 @@ This project converts structured educational text into narrated videos with sync
 
 ## Requirements
 
+Please install all packages in the `requirements.txt` file.
+
 - Python 3.7+
 - [MoviePy](https://github.com/Zulko/moviepy)
 - [Coqui TTS](https://github.com/coqui-ai/TTS)
@@ -52,7 +54,7 @@ export IMAGEMAGICK_BINARY=/opt/homebrew/bin/magick  # Adjust to your system
 3. Run the script:
 
 ```bash
-python main.py
+python pipeline.py
 ```
 ### Output
 The script will generate a final video file named `xxx.mp4` in the project root directory.
